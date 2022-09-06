@@ -93,14 +93,6 @@ footer {
 }
 
 @media screen and (max-width: 1050px) {
-    html {
-        overflow-x: hidden;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
     header {
         display: block;
         min-height: 100px;
