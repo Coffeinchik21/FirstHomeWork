@@ -30,9 +30,6 @@ header {
     font-size: 18px;
 }
 
-img {
-    height: inherit;
-}
 
 main {
     text-align: center;
@@ -103,5 +100,9 @@ footer {
         display: block;
         margin: 0;
         padding: 0;
+    }
+
+    .theSinglePhoto {
+        width: 100%;
     }
 }
