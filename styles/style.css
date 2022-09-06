@@ -17,6 +17,7 @@ header {
     height: 81px;
 }
 
+
 .nav_menu li {
     display: inline-block;
     margin-left: 38px;
@@ -27,18 +28,16 @@ header {
     font-weight: 900;
     letter-spacing: 0.15em;
     font-size: 18px;
-    line-height: 400px;
 }
 
 img {
-    height: 790px;
+    height: inherit;
 }
 
-.main_content {
+main {
     text-align: center;
     min-height: 650px;
     background-color: #f5f6f7;
-
 }
 
 h1 {
@@ -91,4 +90,18 @@ footer {
     font-size: 16px;
     font-weight: 900;
     color: #373737;
+}
+
+@media screen and (max-width: 1050px) {
+    header {
+        display: block;
+        min-height: 100px;
+        text-align: center;
+    }
+
+    .nav_menu li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 }
