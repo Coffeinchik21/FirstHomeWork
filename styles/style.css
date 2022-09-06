@@ -65,7 +65,7 @@ h1 {
     width: 192px;
     height: 51px;
     color: #fff;
-    font-family: Gotham Rounded;
+    font-family: Gotham Rounded, sans-serif;
     font-weight: 500;
     font-size: 12px;
     background-color: #16a085;
